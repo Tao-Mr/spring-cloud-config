@@ -1,6 +1,6 @@
 spring:
   application:
-    name: itoken-service-admin
+    name: itoken-service-posts
   boot:
     admin:
       client:
@@ -10,7 +10,7 @@ spring:
 
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/itoken?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=round&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
+      url: jdbc:mysql://localhost:3306/itoken-database?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=round&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
       username: root
       password: root
       initial-size: 1
@@ -21,7 +21,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
 
 server:
-  port: 8501
+  port: 8504
 
 mybatis:
   type-aliases-package: com.mrliu.itoken.common.domain
