@@ -10,7 +10,7 @@ spring:
 
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/itoken-database?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=round&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
+      url: jdbc:mysql://localhost:3306/itoken_posts?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=round&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
       username: root
       password: root
       initial-size: 1
