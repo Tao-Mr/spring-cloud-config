@@ -12,8 +12,7 @@ spring:
     servlet:
       content-type: text/html
   resources:
-    static-locations:
-    - classpath:/static/
+    static-locations: classpath:/static/
 
 
 feign:
