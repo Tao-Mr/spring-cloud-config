@@ -11,9 +11,6 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
-  resources:
-    static-locations: classpath:/static/
-
 
 feign:
   hystrix:
