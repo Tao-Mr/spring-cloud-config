@@ -20,10 +20,10 @@ zuul:
   routes:
     backend-admin:
       path: /backend/admin/**
-      serviceId: itoken-web-admin
+      serviceId: http://localhost:8601
     backend-posts:
       path: /backend/posts/**
-      serviceId: itoken-web-posts
+      serviceId: http://localhost:8602
   add-host-header: true
 
 management:
