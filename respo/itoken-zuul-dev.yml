@@ -24,6 +24,7 @@ zuul:
     backend-posts:
       path: /backend/posts/**
       serviceId: itoken-web-posts
+  add-host-header: true
 
 management:
   endpoint:
