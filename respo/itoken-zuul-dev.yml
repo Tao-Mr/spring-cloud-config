@@ -16,6 +16,15 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+zuul:
+  routes:
+    backend-admin:
+      path: /backend/admin/**
+      serviceId: itoken-web-admin
+    backend-posts:
+      path: /backend/posts/**
+      serviceId: itoken-web-posts
+
 management:
   endpoint:
     health:
